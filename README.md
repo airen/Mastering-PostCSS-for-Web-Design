@@ -1,66 +1,34 @@
-# Mastering-PostCSS-for-Web-Design
-By Packt Publishing
+# 深入PostCSS Web设计
 
-This is the code repository for [Mastering PostCSS for Web Design](https://www.packtpub.com/web-development/mastering-postcss-web-design?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781785885891), published by [Packt Publishing](https://www.packtpub.com/). It contains all the required files to run the code.
+深入PostCSS Web设计是@Packt Publishing发布的《[Mastering PostCSS for Web Design](https://www.packtpub.com/web-development/mastering-postcss-web-design)》。该中文版本由 电子工业出版社 委托社区同学：@大漠、@孙崇升、@姬忠静 和 @肖少彦 几位同学所译。
 
-## What you need for this Code Bundle
-All you need to work through most of the examples in this book is a simple text
-or code editor, a copy of NodeJS (for your platform), Internet access, and a browser.
-I recommend installing Sublime Text 3; it works well with Node and Gulp, which
-we will use throughout the book.
-Some of the examples make use of additional plugins; most (if not all) can be
-installed directly from within NodeJS. Details are included within the appropriate
-chapter along with links to view the plugin source code and documentation
+![](images/cover.jpg)
 
-The following chapters do not have any requirements: 6, 8, 9, 10, 13, 14. Any requirements for these chapters are already listed in the table.
+目前该书已在中国市场上架，感兴趣的同学可以购买实体书一阅。
 
-Assumptions:
--	Internet access – many plugins will need to be downloaded via NodeJS
--	Internet browsers with DOM Inspectors included – preferably Firefox (with Firebug – http://www.getfirebug.com) and / or Chrome (DOM Inspector already built in).
--	Hardware column removed – no specific hardware requirements for any of the software used, over and above the OS version used.
--	Under OS: if Any listed, then software can be used on Windows, Mac or Linux platforms.
--	Any not listed are either downloaded via the Internet during the exercise, or available from the code download; they do not have to be installed prior to that exercise being started. This includes the PostCSS plugins referenced throughout the book.
--	Fonts used have been through Font Squirrel’s webfont generator – this creates the appropriate styles which have been used in various demos throughout the book.
--	Media / images referenced in the book have been provided in the code download that accompanies this book, or can be obtained from the links given in the text.
+> **特别声明，由于我们水平有限，如果翻译不对之处还请各路大婶拍正。如果您英文阅读无障碍，更建议您直接购买英文版本阅读！**
 
-##Installation of applications and plugins:
-Node: Double click the installer, then click Next, tick “I accept the terms in the License Agreement”, Next, next, Install, Finish (when appropriate option is displayed).
-Gulp: see https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md for installation instructions. All other Gulp-based or PostCSS-based plugins will follow similar instructions, which are also outlined in each chapter where they are used.
-Webserver –	WAMP: http://www.slideshare.net/triniwiz/wamp-20949805 details how to install it; use default options set throughout – no 				need to change any parameters shown.
-		MAMP: I believe https://www.mamp.info/en/documentation/MAMP-3-User-Guide.pdf should be sufficient (not a Mac expert!)
-Sublime Text:	double click installer, then press Next, Next, Install and Finish (when appropriate button shown).	
+## 目录
 
-##Software specifications:
+- [第1章：PostCSS简介](Ch1.md)
+- [第2章：创建变量和混合宏](Ch2.md)
+- [第3章：嵌套规则](Ch3.md)
+- [第4章：创建媒体查询](Ch4.md)
+- [第5章：管理颜色、图片和字体](Ch5.md)
+- [第6章：创建网格](Ch6.md)
+- [第7章：动画元素](Ch7.md)
+- [第8章：PostCSS 插件开发](Ch8.md)
+- [第9章：简写、降级和包型插件](Ch9.md)
+- [第10章：自制处理器](Ch10.md)
+- [第11章：管理自定义语法](Ch11.md)
+- [第12章：混合处理器](Ch12.md)
+- [第13章：排除解决PostCSS相关问题](Ch13.md)
+- [第14章：为将来新特性做准备](Ch14.md)
 
-| Chapter number | Software required (with version) | Free/Proprietary | If proprietary, can code testing be performed using a trial version | If proprietary, then cost of the software | Download links to the software | OS required |
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| All | Sublime Text 3 | Proprietary | Yes – no time limit; other editors can be used, but | USD 70 | http://www.sublimetext.com/3 | Any |
-| 11 | Syntax Highlighing for PostCSS (for Sublime Text) | Free | N/A | N/A | Installed via Package Control – details given in text | Any |
-| All | WAMPServer | Free | N/A | N/A | http://www.wampserver.com/en | Windows |
-| All | NodeJS | Free | N/A | N/A | https://nodejs.org/en/ | Any |
-| All | Gulp | Free | N/A | N/A | http://www.gulpjs.com | Any |
-| 5 | Evil Icon icons | Free | N/A | N/A | https://github.com/outpunk/gulp-evil-icons, although specific icons already in code download | Any |
-| 5 | WebP Image support | Free | N/A | N/A | https://developers.google.com/speed/webp/, but specific parts already in code download | Windows, but other OS support available |
-| All | Source Sans Pro font | Free | N/A | N/A | http://www.fontsquirrel.com/fonts/sourcesanspro | Any |
-| All | Roboto Font | Free | N/A | N/A | http://www.fontsquirrel.com/fonts/roboto | Any |
-| 2 | Social Media icons | Free | N/A | N/A | http://wegraphics.net/downloads/free-stained-and-faded-social-media-icons/ | Any |
-| 11 | Git | Free | N/A | N/A | https://git-scm.com/ | Any |
-| 7 | Transit library | Free | N/A | N/A | http://ricostacruz.com/jquery.transit/ | Any |
-| 7 | Velocity library | Free | N/A | N/A | http://julian.com/research/velocity/ | Any |
-| 7 | Animate.css by Dan Eden | Free | N/A | N/A | https://daneden.github.io/animate.css/ | Any |
-| 7 | Animate.scss by Geoff Graham | Free | N/A | N/A | https://github.com/geoffgraham/animate.scss | Any |
-| 7 | Magic animations | Free | N/A | N/A | http://www.minimamente.com/example/magic_animations/ | Any |
-| 12 | WordPress – standalone installation; includes TwentySixteen theme | Free | N/A | N/A | http://www.wordpress.org | Any |
-| 12 | A suitable web server for local use | Free | N/A | N/A | Various – Apache (http://www.apachefriends.org) – cross-platform; WAMPServer (http://www.wampserver.de/en) – Win Linux users will likely have one available within their distro | Any – see left |
+## 勘误
 
-## Related Books
+由于我们水平有限，书中难免有不对之处，如果您是该书的阅读者，发现书中不对之处，欢迎在此给我们提[Issues](https://github.com/airen/Mastering-PostCSS-for-Web-Design/issues)。
 
+## 版权声明
 
-
-
-
-* [HTML5 and CSS3 Responsive Web Design Cookbook](https://www.packtpub.com/web-development/html5-and-css3-responsive-web-design-cookbook?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781849695442)
-
-* [Responsive Web Design by Example : Beginner's Guide](https://www.packtpub.com/web-development/responsive-web-design-example?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781849695428)
-
-* [Web Design Blueprints](https://www.packtpub.com/web-development/web-design-blueprints?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781783552115)
+> **特别声明：如果未得到授权，严禁转载本仓库下的任何内容，包括代码和图片！如有造成侵权，出版方有权追究相关的法律责任！**
