@@ -2,7 +2,7 @@
 
 深入PostCSS Web设计是@Packt Publishing发布的《[Mastering PostCSS for Web Design](https://www.packtpub.com/web-development/mastering-postcss-web-design)》。该中文版本由 电子工业出版社 委托社区同学：@大漠、@孙崇升、@姬忠静 和 @肖少彦 几位同学所译。
 
-![](images/cover.jpg)
+![](docs/images/cover.jpg)
 
 目前该书已在中国市场上架，感兴趣的同学可以购买实体书一阅。
 
